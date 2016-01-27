@@ -1,0 +1,25 @@
+{
+  "name": "john-hess",
+  "version": "1.0.0",
+  "description": "personal portfolio and blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alookatommorow/john-hess.git"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "angularjs",
+    "node.js"
+  ],
+  "author": "John Hess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alookatommorow/john-hess/issues"
+  },
+  "homepage": "https://github.com/alookatommorow/john-hess"
+}
