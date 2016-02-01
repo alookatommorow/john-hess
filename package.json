@@ -18,6 +18,12 @@
   ],
   "author": "John Hess",
   "license": "MIT",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "express": "^4.13.4",
+    "grunt": "^0.4.5",
+    "mongodb": "^2.1.4"
+  },
   "bugs": {
     "url": "https://github.com/alookatommorow/john-hess/issues"
   },
