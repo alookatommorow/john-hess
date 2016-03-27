@@ -6,5 +6,46 @@
   <body>
     <img src="img/logo-small.png">
     <h1><%= title %></h1>
+    <h3>Create User</h3>
+    <form action="/users" method="POST">
+      <div>
+        First Name: <input type="text" name="firstName">
+      </div>
+      <div>
+        Last Name: <input type="text" name="lastName">
+      </div>
+      <div>
+        Email: <input type="text" name="email">
+      </div>
+      <div>
+        Username: <input type="text" name="username">
+      </div>
+      <div>
+        Password: <input type="text" name="password">
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+
+    <h3>Update User</h3>
+
+    <form action="/users" method="PUT">
+      <div>
+        First Name: <input type="text" name="firstName">
+      </div>
+      <div>
+        Last Name: <input type="text" name="lastName">
+      </div>
+      <div>
+        Email: <input type="text" name="email">
+      </div>
+      <div>
+        Username: <input type="text" name="username">
+      </div>
+      <div>
+        Password: <input type="text" name="password">
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+
   </body>
 </html>
